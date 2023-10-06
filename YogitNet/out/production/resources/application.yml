@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    include: db, swagger
+
+  security:
+    user:
+      name: user
+      password: 123

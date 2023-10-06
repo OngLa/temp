@@ -1,0 +1,19 @@
+# Node.js / React 프로젝트용 .gitignore
+
+# Node.js 모듈 관련 파일 및 디렉토리 무시
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# 빌드된 파일 무시
+/build/
+/dist/
+
+# 환경 설정 파일 무시 (환경에 따라 다를 수 있음)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE 설정 파일 무시 (예: Visual Studio Code)
+.vscode/
